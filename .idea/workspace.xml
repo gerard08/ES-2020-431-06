@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be7fd69f-fc37-422d-94dc-52aae69c1280" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/Viatge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +20,10 @@
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="gerard_08 &lt;gerardmaresp@gmail.com&gt;" />
-        <option value="adam.lemkhanter@e-campus.uab.cat" />
-        <option value="Adam" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1brNQlrReOd3sxTiW8p9lfSvxkR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,35 +36,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
-  </component>
-  <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ES" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -78,7 +54,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589386238090</updated>
-      <workItem from="1589386239641" duration="1202000" />
+      <workItem from="1589386239641" duration="2548000" />
+      <workItem from="1589405519728" duration="6000" />
+      <workItem from="1589464037436" duration="110000" />
     </task>
     <task id="LOCAL-00001" summary="Projecte buit">
       <created>1589386788242</created>
@@ -87,56 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589386788242</updated>
     </task>
-    <task id="LOCAL-00002" summary="Projecte buit">
-      <created>1589389237679</created>
+    <task id="LOCAL-00002" summary="prova">
+      <created>1589387468195</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1589389237679</updated>
+      <updated>1589387468195</updated>
     </task>
-    <task id="LOCAL-00003" summary="Projecte buit">
-      <created>1589402093038</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1589402093038</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Projecte buit">
-      <created>1589402681762</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1589402681762</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Projecte buit">
-      <created>1589402770781</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1589402770781</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Projecte buit">
-      <created>1589402860673</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1589402860673</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Projecte buit">
-      <created>1589403013529</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1589403013529</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Projecte buit">
-      <created>1589403211095</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1589403211095</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,46 +80,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projecte buit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projecte buit" />
+    <MESSAGE value="prova" />
+    <option name="LAST_COMMIT_MESSAGE" value="prova" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="346" y="40" key="CommitChangelistDialog2" timestamp="1589403210181">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1589387465859">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1589386787489" />
-    <state x="346" y="40" key="CommitChangelistDialog2/0.40.1536.824@0.40.1536.824" timestamp="1589403210181" />
-    <state x="433" y="40" key="CommitChangelistDialog2/1920.-95.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1589389227800" />
-    <state width="681" height="266" key="GridCell.Tab.0.bottom" timestamp="1589392244303">
-      <screen x="0" y="40" width="1920" height="1040" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1589387465859" />
+    <state x="473" y="-825" key="MultipleFileMergeDialog" timestamp="1589759504399">
+      <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="681" height="266" key="GridCell.Tab.0.bottom/1920.-95.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1589392244303" />
-    <state width="681" height="266" key="GridCell.Tab.0.center" timestamp="1589392244303">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="681" height="266" key="GridCell.Tab.0.center/1920.-95.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1589392244303" />
-    <state width="681" height="266" key="GridCell.Tab.0.left" timestamp="1589392244303">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="681" height="266" key="GridCell.Tab.0.left/1920.-95.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1589392244303" />
-    <state width="681" height="266" key="GridCell.Tab.0.right" timestamp="1589392244303">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="681" height="266" key="GridCell.Tab.0.right/1920.-95.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1589392244303" />
-    <state x="259" y="75" key="SettingsEditor" timestamp="1589388298234">
-      <screen x="0" y="40" width="1920" height="1040" />
+    <state x="473" y="-825" key="MultipleFileMergeDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589759504399" />
+    <state x="184" y="26" key="SettingsEditor" timestamp="1589387434909">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589387434909" />
-    <state x="259" y="75" key="SettingsEditor/1920.-95.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1589388298234" />
-    <state x="310" y="164" key="Vcs.Push.Dialog.v2" timestamp="1589403213556">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1589387470301">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1589386790604" />
-    <state x="310" y="164" key="Vcs.Push.Dialog.v2/0.40.1536.824@0.40.1536.824" timestamp="1589403213556" />
-    <state x="387" y="197" key="Vcs.Push.Dialog.v2/1920.-95.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1589389282849" />
-    <state x="525" y="312" key="com.intellij.ide.util.TipDialog" timestamp="1589403975120">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1589387470301" />
+    <state x="379" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1589464039205">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="525" y="312" key="com.intellij.ide.util.TipDialog/0.40.1536.824@0.40.1536.824" timestamp="1589403975120" />
-    <state x="656" y="383" key="com.intellij.ide.util.TipDialog/1920.-95.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1589388080627" />
+    <state x="379" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1589464039204" />
+    <state x="493" y="-658" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589759489823">
+      <screen x="-199" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="493" y="-658" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589759489823" />
+    <state x="492" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1589387507821" />
   </component>
 </project>
