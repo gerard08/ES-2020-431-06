@@ -15,7 +15,7 @@ class Flights:
         self.dateDestination = ''
         self.flights = []
         self.maximPassatgers = 365
-
+        self.preu = 0
 
 
 
@@ -31,15 +31,20 @@ class Flights:
         else:
             print("El numero de passatgers a l'avió és inferior al numero a eliminar")
 
-    def AfegirDestí(self, Destí):
+    def AfegirDestí(self, Destí, preu):
         self.flights.append(Destí)
+        self.preu += preu
 
-    def EliminarDestí(self, Destí):
+    def EliminarDestí(self, Destí, preu):
         if Destí in self.flights:
             self.flights.remove(Destí)
+            self.preu -= preu
 
     def ConsultarLlista(self):
         return self.flights
 
     def getNumeroDestins(self):
         return len(self.flights)
+
+    def consultaPreu(self):
+        return self.preu
