@@ -1,50 +1,60 @@
 class Flights:
 
-    #'Flights' encapsula la API externa proporcionada per Skyscanner.com
-    # La classe 'Flights' conté la llista de vols pels quals es vol confirmar la reserva. De cada vol té la següent informació:
-    #- Codi del vol
-    #- Destinació
-    #- Número de passatgers
 
-    def __init__(self):
+    def __init__(self, maxFlights):
         self.source = ''
         self.destination = ''
         self.codiVol = ''
-        self.nPassatgers = 0
+        self.__nPassatgers = 0
         self.datesource = ''
         self.dateDestination = ''
-        self.flights = []
+        self.__flights = []
         self.maximPassatgers = 365
-        self.preu = 0
+        self.__preu = 0
+        self.__maxFlights = maxFlights
 
 
 
     def AfegeixPassatgers(self, nPassatgers):
-        if self.nPassatgers <= self.maximPassatgers:
-            self.nPassatgers += nPassatgers
+        if self.__nPassatgers <= self.maximPassatgers:
+            self.__nPassatgers += nPassatgers
         else:
             print("El numero de passatgers afegits supera la capacitat de l'avió ")
 
     def EsborraPassatger(self, nPassatgers):
-        if self.nPassatgers >= nPassatgers:
-            self.nPassatgers -= nPassatgers
+        if self.__nPassatgers >= nPassatgers:
+            self.__nPassatgers -= nPassatgers
         else:
             print("El numero de passatgers a l'avió és inferior al numero a eliminar")
 
     def AfegirDestí(self, Destí, preu):
-        self.flights.append(Destí)
-        self.preu += preu
+        if len(self.__flights) < self.maximPassatgers:
+            if preu > 0:
+                self.__flights.append(Destí)
+                self.__preu += preu
+            else:
+                print("El preu no pot ser negatiu")
+        else:
+            print("numero màxim de destins assolits")
 
     def EliminarDestí(self, Destí, preu):
-        if Destí in self.flights:
-            self.flights.remove(Destí)
-            self.preu -= preu
+        if Destí in self.__flights:
+            if preu > 0:
+                self.__flights.remove(Destí)
+                self.__preu -= preu
+            else:
+                print("El preu no pot ser negatiu")
+        else:
+            print("Destí a esborrar no trobat a la llista de destins")
 
     def ConsultarLlista(self):
-        return self.flights
+        return self.__flights
 
     def getNumeroDestins(self):
-        return len(self.flights)
+        return len(self.__flights)
 
     def consultaPreu(self):
-        return self.preu
+        return self.__preu
+
+    def getNPassatgers(self):
+        return self.__nPassatgers
