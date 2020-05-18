@@ -23,7 +23,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1brNQlrReOd3sxTiW8p9lfSvxkR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -119,10 +119,10 @@
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="215" y="-886" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589761955060" />
-    <state x="234" y="-1080" key="CommitChangelistDialog2" timestamp="1589763100365">
+    <state x="234" y="-1080" key="CommitChangelistDialog2" timestamp="1589763429825">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="234" y="-1080" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589763100365" />
+    <state x="234" y="-1080" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589763429825" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761285505" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1589387465859" />
     <state x="473" y="-825" key="MultipleFileMergeDialog" timestamp="1589759504399">
@@ -145,10 +145,10 @@
     </state>
     <state x="379" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761221816" />
     <state x="379" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1589464039204" />
-    <state x="493" y="-658" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589759489823">
+    <state x="493" y="-658" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589763479303">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="493" y="-658" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589759489823" />
+    <state x="493" y="-658" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589763479303" />
     <state x="492" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1589387507821" />
     <state x="0" y="0" width="1381" height="856" key="dock-window-1" timestamp="1589762758511">
       <screen x="0" y="0" width="1366" height="768" />
