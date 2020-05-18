@@ -19,6 +19,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Adam-byte-order &lt;65297895+adam-byte-order@users.noreply.github.com&gt;" />
         <option value="gerard_08 &lt;gerardmaresp@gmail.com&gt;" />
       </list>
     </option>
@@ -127,29 +128,29 @@
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="215" y="-886" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589761955060" />
-    <state x="234" y="-1080" key="CommitChangelistDialog2" timestamp="1589765878248">
+    <state x="234" y="-1080" key="CommitChangelistDialog2" timestamp="1589766326600">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="234" y="-1080" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589765878248" />
+    <state x="234" y="-1080" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589766326600" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761285505" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1589387465859" />
     <state x="207" y="-866" key="MergeDialog" timestamp="1589765824701">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="207" y="-866" key="MergeDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589765824701" />
-    <state x="473" y="-825" key="MultipleFileMergeDialog" timestamp="1589765828614">
+    <state x="473" y="-825" key="MultipleFileMergeDialog" timestamp="1589766306008">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="473" y="-825" key="MultipleFileMergeDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589765828614" />
+    <state x="473" y="-825" key="MultipleFileMergeDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589766306008" />
     <state x="60" y="-1043" key="SettingsEditor" timestamp="1589761851881">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="60" y="-1043" key="SettingsEditor/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589761851881" />
     <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589387434909" />
-    <state x="188" y="-917" key="Vcs.Push.Dialog.v2" timestamp="1589765883179">
+    <state x="188" y="-917" key="Vcs.Push.Dialog.v2" timestamp="1589766294715">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="188" y="-917" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589765883179" />
+    <state x="188" y="-917" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589766294715" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761288109" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1589387470301" />
     <state x="379" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1589761221816">
