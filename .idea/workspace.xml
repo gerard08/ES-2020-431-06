@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="be7fd69f-fc37-422d-94dc-52aae69c1280" name="Default Changelist" comment="">
+    <list default="true" id="be7fd69f-fc37-422d-94dc-52aae69c1280" name="Default Changelist" comment="Class reserva i update del calcular preu">
+      <change afterPath="$PROJECT_DIR$/tests/PaymentData/PaymentData_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Cars.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Cars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/PaymentData.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/PaymentData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/reserva.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/reserva.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +51,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -48,6 +69,34 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ger-m\PycharmProjects\ES" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PaymentData_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ES" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/PaymentData" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/PaymentData/PaymentData_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.PaymentData_test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -109,18 +158,29 @@
       <option name="project" value="LOCAL" />
       <updated>1589764065288</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Class reserva i update del calcular preu">
+      <created>1589767170534</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589767170534</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projecte buit" />
     <MESSAGE value="prova" />
     <MESSAGE value="Tot organitzat" />
     <MESSAGE value="Class Hotels" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class Hotels" />
+    <MESSAGE value="Class reserva i update del calcular preu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class reserva i update del calcular preu" />
   </component>
   <component name="WindowStateProjectService">
     <state x="215" y="-886" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589761955060">
@@ -143,13 +203,14 @@
     </state>
     <state x="60" y="-1043" key="SettingsEditor/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589761851881" />
     <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589387434909" />
-    <state x="387" y="157" key="Vcs.Push.Dialog.v2" timestamp="1589764337318">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="387" y="159" key="Vcs.Push.Dialog.v2" timestamp="1589767174590">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="387" y="157" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589764337318" />
     <state x="188" y="-917" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589763107600" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761288109" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1589387470301" />
+    <state x="387" y="159" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1589767174590" />
     <state x="379" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1589761221816">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -164,9 +225,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="0" y="0" width="1381" height="856" key="dock-window-1/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589762758511" />
-    <state x="-1643" y="364" width="1441" height="472" key="dock-window-2" timestamp="1589764329800">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="166" y="62" width="1663" height="880" key="dock-window-2" timestamp="1589769079026">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-1643" y="364" width="1441" height="472" key="dock-window-2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589764329800" />
+    <state x="166" y="62" width="1663" height="880" key="dock-window-2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1589769079026" />
+    <state x="616" y="178" width="670" height="676" key="search.everywhere.popup" timestamp="1589769453030">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="178" width="670" height="676" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1589769453030" />
   </component>
 </project>
