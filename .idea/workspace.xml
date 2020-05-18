@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be7fd69f-fc37-422d-94dc-52aae69c1280" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/Flights/Flight_test1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/Flights.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Flights.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Viatge.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Viatge.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,7 @@
       <workItem from="1589759394670" duration="809000" />
       <workItem from="1589760646321" duration="14000" />
       <workItem from="1589760832155" duration="373000" />
-      <workItem from="1589761219513" duration="5469000" />
+      <workItem from="1589761219513" duration="5982000" />
     </task>
     <task id="LOCAL-00001" summary="Projecte buit">
       <created>1589386788242</created>
@@ -125,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589766340584</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Vol millorada">
+      <created>1589766829079</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589766829079</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Classe reserva 'arreglada'?">
+      <created>1589766908856</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589766908856</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,17 +153,19 @@
     <MESSAGE value="Tot organitzat" />
     <MESSAGE value="Feta funció vol" />
     <MESSAGE value="Funció que l'Adam no ha pogut penjar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Funció que l'Adam no ha pogut penjar" />
+    <MESSAGE value="Vol millorada" />
+    <MESSAGE value="Classe reserva 'arreglada'?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classe reserva 'arreglada'?" />
   </component>
   <component name="WindowStateProjectService">
     <state x="215" y="-886" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589761955060">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="215" y="-886" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589761955060" />
-    <state x="234" y="-1080" key="CommitChangelistDialog2" timestamp="1589766884309">
+    <state x="234" y="-1080" key="CommitChangelistDialog2" timestamp="1589766908111">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="234" y="-1080" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589766884309" />
+    <state x="234" y="-1080" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589766908111" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761285505" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1589387465859" />
     <state x="207" y="-866" key="MergeDialog" timestamp="1589765824701">
@@ -163,10 +181,10 @@
     </state>
     <state x="60" y="-1043" key="SettingsEditor/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589761851881" />
     <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589387434909" />
-    <state x="188" y="-917" key="Vcs.Push.Dialog.v2" timestamp="1589766831548">
+    <state x="188" y="-917" key="Vcs.Push.Dialog.v2" timestamp="1589766910817">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="188" y="-917" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589766831548" />
+    <state x="188" y="-917" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589766910817" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761288109" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1589387470301" />
     <state x="379" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1589761221816">
