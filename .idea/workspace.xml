@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be7fd69f-fc37-422d-94dc-52aae69c1280" name="Default Changelist" comment="">
+    <list default="true" id="be7fd69f-fc37-422d-94dc-52aae69c1280" name="Default Changelist" comment="Feta funció vol">
+      <change afterPath="$PROJECT_DIR$/tests/cars/cars_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/hotels/hotels_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/mock/mock_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Flights.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Flights.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +23,6 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Adam-byte-order &lt;65297895+adam-byte-order@users.noreply.github.com&gt;" />
-        <option value="adaml &lt;adam.lemkhanter@e-campus.uab.cat&gt;" />
         <option value="gerard_08 &lt;gerardmaresp@gmail.com&gt;" />
       </list>
     </option>
@@ -67,7 +69,7 @@
       <workItem from="1589759394670" duration="809000" />
       <workItem from="1589760646321" duration="14000" />
       <workItem from="1589760832155" duration="373000" />
-      <workItem from="1589761219513" duration="2002000" />
+      <workItem from="1589761219513" duration="4453000" />
     </task>
     <task id="LOCAL-00001" summary="Projecte buit">
       <created>1589386788242</created>
@@ -104,28 +106,7 @@
       <option name="project" value="LOCAL" />
       <updated>1589763101402</updated>
     </task>
-    <task id="LOCAL-00006" summary="Class Hotels">
-      <created>1589764065287</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1589764065288</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Class Hotels">
-      <created>1589764335775</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1589764335775</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Class Cars">
-      <created>1589764374937</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1589764374937</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,36 +116,35 @@
     <MESSAGE value="Projecte buit" />
     <MESSAGE value="prova" />
     <MESSAGE value="Tot organitzat" />
-    <MESSAGE value="Class Hotels" />
-    <MESSAGE value="Class Cars" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class Cars" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tot organitzat" />
   </component>
   <component name="WindowStateProjectService">
     <state x="215" y="-886" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589761955060">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="215" y="-886" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589761955060" />
-    <state x="595" y="132" key="CommitChangelistDialog2" timestamp="1589765136059">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="595" y="92" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589764374118" />
-    <state x="234" y="-1080" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589763429825" />
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761285505" />
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1589387465859" />
-    <state x="595" y="132" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1589765136059" />
-    <state x="473" y="-825" key="MultipleFileMergeDialog" timestamp="1589759504399">
+    <state x="234" y="-1080" key="CommitChangelistDialog2" timestamp="1589765796308">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="473" y="-825" key="MultipleFileMergeDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589759504399" />
+    <state x="234" y="-1080" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589765796308" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761285505" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1589387465859" />
+    <state x="207" y="-866" key="MergeDialog" timestamp="1589765824701">
+      <screen x="-199" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="207" y="-866" key="MergeDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589765824701" />
+    <state x="473" y="-825" key="MultipleFileMergeDialog" timestamp="1589765828614">
+      <screen x="-199" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="473" y="-825" key="MultipleFileMergeDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589765828614" />
     <state x="60" y="-1043" key="SettingsEditor" timestamp="1589761851881">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="60" y="-1043" key="SettingsEditor/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589761851881" />
     <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589387434909" />
-    <state x="387" y="157" key="Vcs.Push.Dialog.v2" timestamp="1589764379384">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="188" y="-917" key="Vcs.Push.Dialog.v2" timestamp="1589763107600">
+      <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="387" y="157" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589764379384" />
     <state x="188" y="-917" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589763107600" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761288109" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1589387470301" />
@@ -173,18 +153,14 @@
     </state>
     <state x="379" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761221816" />
     <state x="379" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1589464039204" />
-    <state x="493" y="-658" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589763479303">
+    <state x="493" y="-658" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589765799553">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="493" y="-658" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589763479303" />
+    <state x="493" y="-658" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589765799553" />
     <state x="492" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1589387507821" />
     <state x="0" y="0" width="1381" height="856" key="dock-window-1" timestamp="1589762758511">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="0" y="0" width="1381" height="856" key="dock-window-1/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589762758511" />
-    <state x="-1643" y="364" width="1441" height="472" key="dock-window-2" timestamp="1589764329800">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1643" y="364" width="1441" height="472" key="dock-window-2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589764329800" />
   </component>
 </project>
