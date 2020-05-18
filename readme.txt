@@ -22,7 +22,7 @@ classe Banc:
 
     Encapsula l'accés a la plataforma bancària per realitzar pagaments
 
-    El mètode do_payment reb com a pàràmetres l'usuari que fa el pagament i les dades del pagament
+    El mètode do_payment reb com a paràmetres l'usuari que fa el pagament i les dades del pagament
 
     Les classes 'User' i 'PaymentData' són classes pròpies de airhopping que heu de definir
 
