@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be7fd69f-fc37-422d-94dc-52aae69c1280" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_05_2020_1_53__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_05_2020_1_53__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/Hotels.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Hotels.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/Viatge.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Viatge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589763101402</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Class Hotels">
+      <created>1589764065287</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589764065288</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,17 +119,18 @@
     <MESSAGE value="Projecte buit" />
     <MESSAGE value="prova" />
     <MESSAGE value="Tot organitzat" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tot organitzat" />
+    <MESSAGE value="Class Hotels" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class Hotels" />
   </component>
   <component name="WindowStateProjectService">
     <state x="215" y="-886" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589761955060">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="215" y="-886" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589761955060" />
-    <state x="634" y="229" key="CommitChangelistDialog2" timestamp="1589764043167">
+    <state x="595" y="92" key="CommitChangelistDialog2" timestamp="1589764064532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="634" y="229" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589764043167" />
+    <state x="595" y="92" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589764064532" />
     <state x="234" y="-1080" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589763429825" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761285505" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1589387465859" />
@@ -137,9 +143,10 @@
     </state>
     <state x="60" y="-1043" key="SettingsEditor/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589761851881" />
     <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589387434909" />
-    <state x="188" y="-917" key="Vcs.Push.Dialog.v2" timestamp="1589763107600">
-      <screen x="-199" y="-1080" width="1920" height="1080" />
+    <state x="387" y="157" key="Vcs.Push.Dialog.v2" timestamp="1589764073438">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="387" y="157" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589764073438" />
     <state x="188" y="-917" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589763107600" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761288109" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1589387470301" />
@@ -157,5 +164,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="0" y="0" width="1381" height="856" key="dock-window-1/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589762758511" />
+    <state x="-1643" y="364" width="1441" height="472" key="dock-window-2" timestamp="1589764329800">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1643" y="364" width="1441" height="472" key="dock-window-2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589764329800" />
   </component>
 </project>
