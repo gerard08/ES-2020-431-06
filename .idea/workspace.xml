@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be7fd69f-fc37-422d-94dc-52aae69c1280" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ES.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ES.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/Bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Bank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/PaymentData.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/PaymentData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/User.py" afterDir="false" />
-    </list>
+    <list default="true" id="be7fd69f-fc37-422d-94dc-52aae69c1280" name="Default Changelist" comment="Algunes inicialitzacions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +39,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1brNQlrReOd3sxTiW8p9lfSvxkR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -95,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589387468195</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Algunes inicialitzacions">
+      <created>1589763009849</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589763009849</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Algunes inicialitzacions">
+      <created>1589763052162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589763052162</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,25 +120,28 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projecte buit" />
     <MESSAGE value="prova" />
-    <option name="LAST_COMMIT_MESSAGE" value="prova" />
+    <MESSAGE value="Algunes inicialitzacions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algunes inicialitzacions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1589387465859">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1589387465859" />
-    <state x="473" y="-825" key="MultipleFileMergeDialog" timestamp="1589759504399">
-      <screen x="-199" y="-1080" width="1920" height="1080" />
+    <state x="672" y="248" width="389" height="265" key="MultipleFileMergeDialog" timestamp="1589763073332">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="473" y="-825" key="MultipleFileMergeDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589759504399" />
+    <state x="672" y="248" width="389" height="265" key="MultipleFileMergeDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1589763073332" />
     <state x="184" y="26" key="SettingsEditor" timestamp="1589387434909">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589387434909" />
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1589387470301">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="387" y="159" key="Vcs.Push.Dialog.v2" timestamp="1589763054150">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1589387470301" />
+    <state x="387" y="159" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1589763054150" />
     <state x="379" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1589464039205">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -143,9 +151,9 @@
     </state>
     <state x="493" y="-658" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589759489823" />
     <state x="492" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1589387507821" />
-    <state x="213" y="180" width="1663" height="1038" key="dock-window-1" timestamp="1589762820987">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="-1754" y="38" width="1663" height="1038" key="dock-window-1" timestamp="1589763144322">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="213" y="180" width="1663" height="1038" key="dock-window-1/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1589762820987" />
+    <state x="-1754" y="38" width="1663" height="1038" key="dock-window-1/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1589763144322" />
   </component>
 </project>
