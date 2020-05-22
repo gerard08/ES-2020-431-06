@@ -6,12 +6,13 @@ from . import PaymentData
 
 class Reserva:
 
-    def __init__(self):
-        self.preu = 0
-        self.__usuaris = []
-        self.__llistaVols = []
-        self.__llistaVehicles = []
-        self.__pagament = None
+    def __init__(self, preu, usuaris, llistaVols, llistaVehicles, pagament, allotjament):
+        self.__preu = preu
+        self.__usuaris = usuaris
+        self.__llistaVols = llistaVols
+        self.__llistaVehicles = llistaVehicles
+        self.__pagament = pagament
+        self.__allotjament = allotjament
 
     def afegirUsuari(self,  nom, DNI, mail):
         ID = len(self.__usuaris)

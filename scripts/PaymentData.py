@@ -3,12 +3,12 @@ from . import reserva
 
 class PaymentData:
 
-    def __init__(self):
-        self.nom_titular = None
-        self.__num_targeta = 0
-        self.tipus_targeta = None
-        self.__codi_seguretat = 0
-        self.__import_total = 0
+    def __init__(self, nomtitular,  numtargeta, tipustargeta, codiseguretat, importtotal):
+        self.nom_titular = nomtitular
+        self.__num_targeta = numtargeta
+        self.tipus_targeta = tipustargeta
+        self.__codi_seguretat =codiseguretat
+        self.__import_total = importtotal
         pass
 
     def calcular_preu(self, Res: reserva):

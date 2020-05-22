@@ -1,10 +1,10 @@
 class Desti:
 
 
-    def __init__(self, nom, COD):
+    def __init__(self, nom, COD, preu):
         self.__nom = nom
         self.__COD = COD
-        self.__preu = 0
+        self.__preu = preu
 
     def getNom(self):
         return self.__nom

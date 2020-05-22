@@ -7,3 +7,5 @@ class Hotels:
         self.nhabitacions = 0
         self.duradareserva = 0
         pass
+
+    

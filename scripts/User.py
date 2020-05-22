@@ -1,6 +1,6 @@
 class User:
 
-    def __init__(self, nom, DNI, mail, ID):
+    def __init__(self, nom, DNI, mail, ID, drivinglicense):
         self.__nom = nom
         self.__DNI = DNI
         self.__mail = mail

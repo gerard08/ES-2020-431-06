@@ -1,18 +1,16 @@
 class Flights:
 
 
-    def __init__(self, maxFlights):
-        self.source = ''
-        self.destination = ''
-        self.codiVol = ''
-        self.__nPassatgers = 0
-        self.datesource = ''
-        self.dateDestination = ''
-        self.__flights = []
-        self.maximPassatgers = 20
+    def __init__(self, source, destination, codivol, nPassatgers, datesource, dateDestination, flights, maximPassatgers, maxFlights):
+        self.source = source
+        self.destination = destination
+        self.codiVol = codivol
+        self.__nPassatgers = nPassatgers
+        self.datesource = datesource
+        self.dateDestination = dateDestination
+        self.__flights = flights
+        self.maximPassatgers = maximPassatgers
         self.__maxFlights = maxFlights
-
-
 
     def AfegeixPassatgers(self, nPassatgers):
         if self.__nPassatgers <= self.maximPassatgers:
