@@ -2,17 +2,42 @@ from . import User
 from . import Skyscanner
 from . import Flights
 from . import Cars
+from . import PaymentData
 
 class Reserva:
 
     def __init__(self):
         self.preu = 0
-        self.usuari = None
-        v = Flights(10)
-        c = Cars(3)
-        self.vols = v.ConsultarLlista()
-        self.destinacions = []
-        pass
+        self.__usuaris = []
+        self.__llistaVols = []
+        self.__llistaVehicles = []
+        self.__pagament = None
+
+    def afegirUsuari(self,  nom, DNI, mail):
+        ID = len(self.__usuaris)
+        self.__usuaris.append(User(nom, DNI, mail, ID))
+        return ID
+
+    def esborrarUsuari(self, ID):
+        for el in self.__usuaris:
+            if el.getID() == ID:
+                self.__usuaris.remove(el)
+                return True
+        return False
+
+    def afegirVehicle(self, marca, matricula, llocRecollida, durada):
+        ID = len(self.__llistaVehicles)
+        self.__usuaris.append(Cars(ID,marca, matricula, llocRecollida, durada))
+        return ID
+
+    def eliminarVehicle(self, ID):
+        for el in self.__llistaVehicles:
+            if el.getCodi() == ID:
+                self.__llistaVehicles.remove(el)
+                return True
+        return False
+
+
 
     def obtenir_usuari(self):
         return self.usuari
