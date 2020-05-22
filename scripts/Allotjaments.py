@@ -1,11 +1,12 @@
 class Allotjaments:
 
-    def __init__(self, direccio, preu, tipusAllotjament, nomAllotjament, codi):
+    def __init__(self, direccio, preu, tipusAllotjament, nomAllotjament, codi, durada):
         self.direccio = direccio
         self.__preu = preu
         self.tipusAllotjament = tipusAllotjament
         self.nomAllotjament = nomAllotjament
         self.__codi = codi
+        self.__durada = durada
 
         def getDireccio(self):
             return self.__direccio
@@ -21,3 +22,6 @@ class Allotjaments:
 
         def getCodi(self):
             return self.codi
+
+        def getDurada(self):
+            return self.durada

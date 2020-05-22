@@ -6,13 +6,13 @@ from . import PaymentData
 
 class Reserva:
 
-    def __init__(self, preu, usuaris, llistaVols, llistaVehicles, pagament, allotjament):
+    def __init__(self, preu, usuaris, llistaVols, llistaVehicles, pagament, llistaAllotjaments):
         self.__preu = preu
         self.__usuaris = usuaris
         self.__llistaVols = llistaVols
         self.__llistaVehicles = llistaVehicles
         self.__pagament = pagament
-        self.__allotjament = allotjament
+        self.__llistaAllotjaments = allotjament
 
     def afegirUsuari(self,  nom, DNI, mail):
         ID = len(self.__usuaris)
@@ -26,9 +26,9 @@ class Reserva:
                 return True
         return False
 
-    def afegirVehicle(self, marca, matricula, llocRecollida, durada):
+    def afegirVehicle(self, marca, matricula, llocRecollida, duradareserva, preuHora):
         ID = len(self.__llistaVehicles)
-        self.__usuaris.append(Cars(ID,marca, matricula, llocRecollida, durada))
+        self.__llistaVehicles.append(Cars(ID,marca, matricula, llocRecollida, duradareserva, preuHora))
         return ID
 
     def eliminarVehicle(self, ID):
@@ -38,10 +38,20 @@ class Reserva:
                 return True
         return False
 
-
-
     def obtenir_usuari(self):
         return self.usuari
+
+    def afegirAllotjament(self, direccio, preu, tipusAllotjament, nomAllotjament, codi, durada):
+        ID = len(self.__llistaAllotjaments)
+        self.__llistaAllotjaments.append(Allotjaments(direccio, preu, tipusAllotjament, nomAllotjament, codi, durada))
+        return ID
+
+    def eliminarAllotjament(self, ID):
+        for el in self.__llistaAllotjaments:
+            if el.getCodi() == ID:
+                self.__llistaAllotjaments(el)
+                return True
+        return False
 
 
 
