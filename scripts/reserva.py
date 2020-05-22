@@ -14,6 +14,7 @@ class Reserva:
         self.__pagament = pagament
         self.__llistaAllotjaments = allotjament
         self.__Vols = None
+        self.metode_pagament = 'Visa'
 
     def afegirUsuari(self,  nom, DNI, mail):
         ID = len(self.__usuaris)
@@ -39,6 +40,15 @@ class Reserva:
                 return True
         return False
 
+    def seleccionar_metode_pagament(self,metode_pagament):
+        if metode_pagament != 'Visa':
+            self.metode_pagament = metode_pagament
+        else:
+            if metode_pagament == 'Mastercard':
+                self.metode_pagament = metode_pagament
+            else :
+                print('Error, metode de pagament no disponible')
+
 
 
     def obtenir_usuari(self):
@@ -55,6 +65,7 @@ class Reserva:
                 self.__llistaAllotjaments(el)
                 return True
         return False
+
 
 
 
