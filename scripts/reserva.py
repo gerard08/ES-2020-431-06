@@ -46,6 +46,7 @@ class Reserva:
             total += el.getPreu()
         for el in self.__llistaAllotjaments:
             total += el.getPreu()
+        self.__preu = total
         return total
 
     def seleccionar_metode_pagament(self,metode_pagament):
