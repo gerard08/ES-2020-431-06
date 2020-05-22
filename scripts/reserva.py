@@ -14,8 +14,6 @@ class Reserva:
         self.__pagament = pagament
         self.__llistaAllotjaments = allotjament
         self.__Vols = None
-        self.__nusuari = 0
-        self.__nVehicle = 0
 
     def afegirUsuari(self,  nom, DNI, mail):
         self.__usuaris.append(User(nom, DNI, mail, self.__nusuari))
@@ -46,11 +44,19 @@ class Reserva:
         total += self.__Vols.consultaPreu() * len(self.__usuaris)
         for el in self.__llistaVehicles:
             total += el.getPreu()
-
         for el in self.__llistaAllotjaments:
             total += el.getPreu()
-
         return total
+
+    def seleccionar_metode_pagament(self,metode_pagament):
+        if metode_pagament != 'Visa':
+            self.metode_pagament = metode_pagament
+        else:
+            if metode_pagament == 'Mastercard':
+                self.metode_pagament = metode_pagament
+            else :
+                print('Error, metode de pagament no disponible')
+
 
     def obtenir_usuari(self):
         return self.__usuaris #mal feta
