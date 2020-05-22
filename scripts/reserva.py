@@ -12,7 +12,7 @@ class Reserva:
         self.__llistaVols = llistaVols
         self.__llistaVehicles = llistaVehicles
         self.__pagament = pagament
-        self.__llistaAllotjaments = allotjament
+        self.__llistaAllotjaments = llistaAllotjaments
 
     def afegirUsuari(self,  nom, DNI, mail):
         ID = len(self.__usuaris)
@@ -52,8 +52,6 @@ class Reserva:
                 self.__llistaAllotjaments(el)
                 return True
         return False
-
-
 
     '''
     def Confirmar_reserva(Skyscaner,Rentalcars,Hotels):
