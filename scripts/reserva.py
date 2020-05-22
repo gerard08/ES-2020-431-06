@@ -14,11 +14,13 @@ class Reserva:
         self.__pagament = pagament
         self.__llistaAllotjaments = allotjament
         self.__Vols = None
+        self.__nusuari = 0
+        self.__nVehicle = 0
 
     def afegirUsuari(self,  nom, DNI, mail):
-        ID = len(self.__usuaris)
-        self.__usuaris.append(User(nom, DNI, mail, ID))
-        return ID
+        self.__usuaris.append(User(nom, DNI, mail, self.__nusuari))
+        self.__nusuari += 1
+        return self.__nusuari
 
     def esborrarUsuari(self, ID):
         for el in self.__usuaris:
@@ -39,7 +41,16 @@ class Reserva:
                 return True
         return False
 
+    def getPreuTotal(self):
+        total = 0
+        total += self.__Vols.consultaPreu() * len(self.__usuaris)
+        for el in self.__llistaVehicles:
+            total += el.getPreu()
 
+        for el in self.__llistaAllotjaments:
+            total += el.getPreu()
+
+        return total
 
     def obtenir_usuari(self):
         return self.__usuaris #mal feta

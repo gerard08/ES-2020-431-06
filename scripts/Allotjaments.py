@@ -12,7 +12,7 @@ class Allotjaments:
             return self.__direccio
 
         def getPreu(self):
-            return self.__preu
+            return self.__preu * self.__durada
 
         def getTipusAllotjament(self):
             return self.__tipusAllotjament
