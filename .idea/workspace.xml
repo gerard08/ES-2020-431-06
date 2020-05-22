@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be7fd69f-fc37-422d-94dc-52aae69c1280" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/reserva.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/reserva.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,6 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -52,7 +50,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="TestFlight" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Flight_test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ES" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,7 +63,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\adaml\PycharmProjects\ES-2020-431-06\tests\Flights\TestFlight.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/Flights/Flight_test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TestFlight" />
+        <item itemvalue="Python.Flight_test1" />
       </list>
     </recent_temporary>
   </component>
@@ -99,7 +97,8 @@
       <workItem from="1589761219513" duration="2002000" />
       <workItem from="1589795516733" duration="784000" />
       <workItem from="1590102827431" duration="5616000" />
-      <workItem from="1590157018365" duration="6826000" />
+      <workItem from="1590157018365" duration="7558000" />
+      <workItem from="1590165399086" duration="1044000" />
     </task>
     <task id="LOCAL-00001" summary="Projecte buit">
       <created>1589386788242</created>
@@ -185,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590161721599</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Funció perduda">
+      <created>1590164658790</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1590164658790</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Funció perduda">
+      <created>1590164787516</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1590164787516</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,22 +227,19 @@
     <MESSAGE value="Modificacions notables en les classes Flights, reserva, User, Cars i Destí" />
     <MESSAGE value="Creacio dades allotjaments" />
     <MESSAGE value="Modificacio Flights i Reserva" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificacio Flights i Reserva" />
+    <MESSAGE value="Funció perduda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funció perduda" />
   </component>
   <component name="WindowStateProjectService">
     <state x="215" y="-886" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589761955060">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="215" y="-886" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589761955060" />
-    <state x="663" y="395" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590166495911">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="663" y="395" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1920.1040@0.40.1920.1040" timestamp="1590166495911" />
-    <state x="438" y="-961" key="CommitChangelistDialog2" timestamp="1590164759584">
+    <state x="438" y="-961" key="CommitChangelistDialog2" timestamp="1590164786367">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="595" y="92" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589764348852" />
-    <state x="438" y="-961" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590164759584" />
+    <state x="438" y="-961" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590164786367" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761285505" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1589387465859" />
     <state x="-107" y="-988" width="1736" height="896" key="DiffContextDialog" timestamp="1590164638367">
@@ -272,24 +282,20 @@
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="207" y="-866" key="MergeDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590164731440" />
-    <state x="473" y="-825" key="MultipleFileMergeDialog" timestamp="1590164738115">
+    <state x="473" y="-825" key="MultipleFileMergeDialog" timestamp="1590166587784">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="473" y="-825" key="MultipleFileMergeDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590164738115" />
-    <state x="60" y="-1043" key="SettingsEditor" timestamp="1589761851881">
+    <state x="473" y="-825" key="MultipleFileMergeDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590166587784" />
+    <state x="60" y="-1043" key="SettingsEditor" timestamp="1590166744512">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="60" y="-1043" key="SettingsEditor/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589761851881" />
+    <state x="60" y="-1043" key="SettingsEditor/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590166744512" />
     <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589387434909" />
-    <state x="760" y="269" key="VCS.ChangeListViewerDialog" timestamp="1590165340645">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="760" y="269" key="VCS.ChangeListViewerDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1590165340645" />
-    <state x="188" y="-917" key="Vcs.Push.Dialog.v2" timestamp="1590164661313">
+    <state x="188" y="-917" key="Vcs.Push.Dialog.v2" timestamp="1590164788900">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="387" y="157" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589764337318" />
-    <state x="188" y="-917" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590164661313" />
+    <state x="188" y="-917" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590164788900" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761288109" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1589387470301" />
     <state x="334" y="-789" key="com.intellij.ide.util.TipDialog" timestamp="1590157021297">
@@ -298,12 +304,11 @@
     <state x="334" y="-789" key="com.intellij.ide.util.TipDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590157021297" />
     <state x="379" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1590102875458" />
     <state x="379" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1589795548017" />
-    <state x="692" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590166394771">
-      <screen x="0" y="40" width="1920" height="1040" />
+    <state x="493" y="-658" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590166581145">
+      <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="493" y="-658" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590161558391" />
+    <state x="493" y="-658" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590166581145" />
     <state x="492" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1589387507821" />
-    <state x="692" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1590166394771" />
     <state x="0" y="0" width="1381" height="856" key="dock-window-1" timestamp="1589762758511">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -312,16 +317,5 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1643" y="364" width="1441" height="472" key="dock-window-2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589764329800" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/Flights/Flight_test1.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
