@@ -1,11 +1,11 @@
 class User:
 
-    def __init__(self, nom, DNI, mail, ID, drivinglicense):
+    def __init__(self, nom, DNI, mail, ID, carnetcotxe):
         self.__nom = nom
         self.__DNI = DNI
         self.__mail = mail
         self.__ID = ID
-        self.__drivingLicense = None
+        self.carnetcotxe = carnetcotxe
 
     def getID(self):
         return self.__ID

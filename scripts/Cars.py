@@ -4,7 +4,7 @@ class Cars:
         self.__codi = codi
         self.marca = marca
         self.__matricula = matricula
-        self. llocrecollida = llocrecollida
+        self.llocrecollida = llocrecollida
         self.duradareserva = duradareserva
         self.__preuHora = preuHora
 
