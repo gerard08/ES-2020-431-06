@@ -27,9 +27,9 @@ class Reserva:
                 return True
         return False
 
-    def afegirVehicle(self, marca, matricula, llocRecollida, duradareserva, preuHora):
+    def afegirVehicle(self, codi,  marca, matricula, llocRecollida, duradareserva, preuHora):
         ID = len(self.__llistaVehicles)
-        self.__llistaVehicles.append(Cars(ID,marca, matricula, llocRecollida, duradareserva, preuHora))
+        self.__llistaVehicles.append(Cars(codi,marca, matricula, llocRecollida, duradareserva, preuHora))
         return ID
 
     def eliminarVehicle(self, ID):
