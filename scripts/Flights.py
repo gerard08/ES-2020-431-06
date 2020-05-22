@@ -1,7 +1,8 @@
+from . import Desti
 class Flights:
 
 
-    def __init__(self, source, destination, codivol, nPassatgers, datesource, dateDestination, flights, maximPassatgers, maxFlights):
+    def __init__(self, source, destination, codivol, nPassatgers, datesource, dateDestination, flights, maxFlights):
         self.source = source
         self.destination = destination
         self.codiVol = codivol
@@ -9,32 +10,24 @@ class Flights:
         self.datesource = datesource
         self.dateDestination = dateDestination
         self.__flights = flights
-        self.maximPassatgers = maximPassatgers
         self.__maxFlights = maxFlights
+        self.__nVols = 0
 
-    def AfegeixPassatgers(self, nPassatgers):
-        if self.__nPassatgers <= self.maximPassatgers:
-            self.__nPassatgers += nPassatgers
-        else:
-            print("El numero de passatgers afegits supera la capacitat de l'avió ")
 
-    def EsborraPassatger(self, nPassatgers):
-        if self.__nPassatgers >= nPassatgers:
-            self.__nPassatgers -= nPassatgers
-        else:
-            print("El numero de passatgers a l'avió és inferior al numero a eliminar")
-
-    def AfegirDestí(self, Destí):
-        if len(self.__flights) < self.maximPassatgers:
-                self.__flights.append(Destí)
+    def AfegirDestí(self, nom, preu):
+        if len(self.__flights) < self.maxFlights:
+            COD = len(self.__flights)
+            desti = Desti(nom, COD, preu)
+            self.__flights.append(desti)
+            self.__nVols += 1
         else:
             print("numero màxim de destins assolits")
+        return self.__nVols
 
-    def EliminarDestí(self, Destí, preu):
-        if Destí in self.__flights:
-                self.__flights.remove(Destí)
-        else:
-            print("Destí a esborrar no trobat a la llista de destins")
+    def EliminarDestí(self, COD):
+        for dest in self.__flights:
+            if dest.getCOD() == COD:
+                self.__flights.remove(dest)
 
     def ConsultarLlista(self):
         return self.__flights

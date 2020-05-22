@@ -22,3 +22,6 @@ class Cars:
 
     def getDuradaReserva(self):
         return self.duradareserva
+
+    def getPreu(self):
+        return self.__preuHora * self.duradareserva

@@ -6,13 +6,14 @@ from . import PaymentData
 
 class Reserva:
 
-    def __init__(self, preu, usuaris, llistaVols, llistaVehicles, pagament, llistaAllotjaments):
+    def __init__(self, preu = None, usuaris = None, llistaVols = None, llistaVehicles = None, pagament = None, allotjament =None):
         self.__preu = preu
         self.__usuaris = usuaris
         self.__llistaVols = llistaVols
         self.__llistaVehicles = llistaVehicles
         self.__pagament = pagament
         self.__llistaAllotjaments = llistaAllotjaments
+        self.__Vols = None
 
     def afegirUsuari(self,  nom, DNI, mail):
         ID = len(self.__usuaris)
@@ -52,6 +53,8 @@ class Reserva:
                 self.__llistaAllotjaments(el)
                 return True
         return False
+
+
 
     '''
     def Confirmar_reserva(Skyscaner,Rentalcars,Hotels):
