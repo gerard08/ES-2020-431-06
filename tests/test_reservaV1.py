@@ -11,7 +11,7 @@ class testsV1(unittest.TestCase):
 
     def test_ReservaV1(self):
 
-        R = reserva()
+        R = reserva(preu=0, usuaris=[], nUsuaris=0, llistaVols=[], llistaVehicles=[], pagament=PaymentData("","","","",""), allotjament=[], Destins=[])
         R.afegirUsuari("","","","","")
         assert R.get_nUsuaris()== 1
         assert R.get_llistatVols() == []

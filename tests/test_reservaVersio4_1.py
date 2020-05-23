@@ -10,7 +10,7 @@ class testsV4_1(unittest.TestCase):
 
     @mock.patch('scripts.reserva.Bank')
     def test_ReservaV4_1(self,mock_Bank,):
-        R41 = reserva()
+        R41 = reserva(preu=0, usuaris=[], nUsuaris=0, llistaVols=[], llistaVehicles=[], pagament=PaymentData("","","","",""), allotjament=[], Destins=[])
         R41.afegirUsuari("", "", "", "", "")
         R41.afegirUsuari("", "", "", "", "")
         R41.afegirDesti("Madrid", "151", 80)

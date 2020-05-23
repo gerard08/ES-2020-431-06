@@ -8,7 +8,7 @@ from scripts.PaymentData import PaymentData
 class testsV4_2(unittest.TestCase):
      @mock.patch('scripts.reserva.Skyscanner')
      def test_ReservaV4_2(self, mock_Skyscanner, ):
-         R42 = reserva()
+         R42 = reserva(preu=0, usuaris=[], nUsuaris=0, llistaVols=[], llistaVehicles=[], pagament=PaymentData("","","","",""), allotjament=[], Destins=[])
          R42.afegirUsuari("", "", "", "", "")
          R42.afegirUsuari("", "", "", "", "")
          R42.afegirDesti("Madrid", "151", 80)

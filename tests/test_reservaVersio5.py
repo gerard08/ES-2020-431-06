@@ -10,7 +10,7 @@ class testsV5(unittest.TestCase):
     @mock.patch('scripts.reserva.Booking')
     @mock.patch('scripts.reserva.Rentalcars')
     def test_ReservaV5(self, mock_Rentalcars, mock_Booking ):
-        R5 = reserva()
+        R5 = reserva(preu=0, usuaris=[], nUsuaris=0, llistaVols=[], llistaVehicles=[], pagament=PaymentData("","","","",""), allotjament=[], Destins=[])
         R5.afegirUsuari("", "", "", "", "")
         R5.afegirUsuari("", "", "", "", "")
         R5.afegirDesti("Madrid", "151", 80)
