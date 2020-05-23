@@ -1,6 +1,7 @@
-Nom del grup: ES-2020-431-06
+# **Pràctica Enginyeria del software**
+## **Nom del grup: ES-2020-431-06**
 
-Integrants:
+## Integrants:
 
 1528708 Guillem Santos Mayá
 1531322 Adam Lemkhanter Boubri
@@ -12,7 +13,7 @@ Enllaç presentació:
 https://docs.google.com/presentation/d/1TlJaaQjG7LHi8i-XKTviP-IR3jwVzK1izb5zeLTAkPk/edit#slide=id.p
 
 
-Release notes
+## **Release notes**
 -L’aplicació ha arribat fins a la versió 5, per tant conté totes les funcionalitats d’aquesta versió.
  Durant  la implantació dels tests unitaris hem fet les següents correccions:
 - Canvi clase Flights ara cada flight emmagatzema un objecte de la classe destí.

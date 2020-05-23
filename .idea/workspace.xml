@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be7fd69f-fc37-422d-94dc-52aae69c1280" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/Flights.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Flights.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/PaymentData.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/PaymentData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/reserva.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/reserva.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_reservaV1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reservaV1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_reservaV2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reservaV2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_reservaV3.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reservaV3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_reservaVersio4_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reservaVersio4_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_reservaVersio4_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reservaVersio4_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_reservaVersio5.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reservaVersio5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +155,7 @@
       <workItem from="1590157018365" duration="7558000" />
       <workItem from="1590165399086" duration="1788000" />
       <workItem from="1590222672125" duration="17191000" />
-      <workItem from="1590266030174" duration="2253000" />
+      <workItem from="1590266030174" duration="2620000" />
     </task>
     <task id="LOCAL-00001" summary="Projecte buit">
       <created>1589386788242</created>
@@ -299,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590256891388</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Versió final">
+      <created>1590268504093</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1590268504093</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,18 +333,19 @@
     <MESSAGE value="Funciones Carlos" />
     <MESSAGE value="Actualizacion readme.txt" />
     <MESSAGE value="Todos tests creados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Todos tests creados" />
+    <MESSAGE value="Versió final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Versió final" />
   </component>
   <component name="WindowStateProjectService">
     <state x="215" y="-886" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589761955060">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="215" y="-886" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589761955060" />
-    <state x="438" y="-961" key="CommitChangelistDialog2" timestamp="1590256890325">
+    <state x="438" y="-961" key="CommitChangelistDialog2" timestamp="1590268502930">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="595" y="92" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589764348852" />
-    <state x="438" y="-961" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590256890325" />
+    <state x="438" y="-961" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590268502930" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761285505" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1590246707364" />
     <state x="-107" y="-988" width="1736" height="896" key="DiffContextDialog" timestamp="1590164638367">
@@ -402,11 +401,11 @@
     </state>
     <state x="60" y="-1043" key="SettingsEditor/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590167021463" />
     <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589387434909" />
-    <state x="188" y="-917" key="Vcs.Push.Dialog.v2" timestamp="1590256896599">
+    <state x="188" y="-917" key="Vcs.Push.Dialog.v2" timestamp="1590268505994">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="387" y="157" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589764337318" />
-    <state x="188" y="-917" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590256896599" />
+    <state x="188" y="-917" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590268505994" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761288109" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1590246709531" />
     <state x="334" y="-789" key="com.intellij.ide.util.TipDialog" timestamp="1590266059710">
