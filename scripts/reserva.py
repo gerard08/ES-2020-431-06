@@ -123,7 +123,7 @@ class reserva:
         if len(self.__llistaVols)<self.__maxFlights:
             D=Desti( nom, COD, preu)
             self.__Destins.append(D)
-            self.__llistaVols.append(Flights("",D,COD,"","","","",""))
+            self.__llistaVols.append(Flights("",D,COD,"","",""))
             self.getPreuTotal()
 
     def eliminarDesti(self,COD):
@@ -178,3 +178,6 @@ class reserva:
             return ("Reserva realitzada correctament"),i
         else:
             return ("Error en la reserva"),i
+
+
+

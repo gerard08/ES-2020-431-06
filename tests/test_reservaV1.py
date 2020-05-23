@@ -24,7 +24,7 @@ class testsV1(unittest.TestCase):
         a.append(Desti("Madrid","151",80))
         assert R.get_Destins()==a
         b=[]
-        b.append(Flights("","","151","","","","",""))
+        b.append(Flights("","","151","","",""))
         assert R.get_llistatVols()==b
         R.afegirUsuari("", "", "", "", "")
         p=80*2
@@ -39,6 +39,5 @@ class testsV1(unittest.TestCase):
         assert a=="Pagament realitzat correctament"
         a, b = R.ConfirmarReservaVols("p", "l")
         assert a == "Reserva realitzada correctament"
-
 
 

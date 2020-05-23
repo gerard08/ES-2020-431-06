@@ -11,9 +11,9 @@ class PaymentData:
         self.__import_total = importtotal
         pass
 
-    def calcular_preu(self, Res: reserva):
-        self.__import_total = Res.preu
-        pass
+    def calcular_preu(self, reserva):
+        self.__import_total = reserva.preu
+
     def get_nomtitular(self):
         return self.nom_titular
 
@@ -28,6 +28,7 @@ class PaymentData:
 
     def set_tipus_targeta(self,tarj):
         self.tipus_targeta=tarj
+
     def mostra_import(self):
         return self.__import_total
 

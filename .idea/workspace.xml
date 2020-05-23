@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be7fd69f-fc37-422d-94dc-52aae69c1280" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/test_reservaV2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_reservaV3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_reservaVersio4_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_reservaVersio4_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_reservaVersio5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ES.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ES.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Flights.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Flights.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/PaymentData.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/PaymentData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/reserva.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/reserva.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_reservaV1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Flights/TestFlight.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/PaymentData/TestPaymentData.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Reserva/test_reservaV1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reservaV1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/cars/TestCar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/hotels/TestHotels.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mock/TestMock.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_reservaV1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reservaV1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_reservaV2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reservaV2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_reservaV3.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reservaV3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_reservaVersio4_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reservaVersio4_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_reservaVersio4_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reservaVersio4_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_reservaVersio5.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reservaVersio5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,7 @@
       <recent name="C:\Users\ger-m\PycharmProjects\ES" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_reservaV1.testMockV1">
+  <component name="RunManager" selected="Python tests.Unittests for test_reservaV3.testsV3">
     <configuration name="Flight_test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ES" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,9 +104,40 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_reservaV1.testsV1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ES" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_reservaV1.testsV1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_reservaV3.testsV3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ES" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_reservaV3.testsV3&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_reservaV1.testMockV1" />
+        <item itemvalue="Python tests.Unittests for test_reservaV3.testsV3" />
+        <item itemvalue="Python tests.Unittests for test_reservaV1.testsV1" />
         <item itemvalue="Python.Flight_test1" />
       </list>
     </recent_temporary>
@@ -137,7 +163,8 @@
       <workItem from="1590102827431" duration="5616000" />
       <workItem from="1590157018365" duration="7558000" />
       <workItem from="1590165399086" duration="1788000" />
-      <workItem from="1590222672125" duration="11537000" />
+      <workItem from="1590222672125" duration="17191000" />
+      <workItem from="1590266030174" duration="2253000" />
     </task>
     <task id="LOCAL-00001" summary="Projecte buit">
       <created>1589386788242</created>
@@ -265,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590246708029</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Todos tests creados">
+      <created>1590256891388</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1590256891388</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,43 +334,44 @@
     <MESSAGE value="Primers Tests Creats" />
     <MESSAGE value="Funciones Carlos" />
     <MESSAGE value="Actualizacion readme.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion readme.txt" />
+    <MESSAGE value="Todos tests creados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Todos tests creados" />
   </component>
   <component name="WindowStateProjectService">
     <state x="215" y="-886" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589761955060">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="215" y="-886" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589761955060" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1590246707364">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="438" y="-961" key="CommitChangelistDialog2" timestamp="1590256890325">
+      <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="595" y="92" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589764348852" />
-    <state x="438" y="-961" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590166886857" />
+    <state x="438" y="-961" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590256890325" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761285505" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1590246707364" />
     <state x="-107" y="-988" width="1736" height="896" key="DiffContextDialog" timestamp="1590164638367">
       <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="-107" y="-988" width="1736" height="896" key="DiffContextDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590164638367" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1590254142359">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="455" height="689" key="GridCell.Tab.0.bottom" timestamp="1590262669744">
+      <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589770138763" />
+    <state width="455" height="689" key="GridCell.Tab.0.bottom/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590262669744" />
     <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590254142359" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1590254142358">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="455" height="689" key="GridCell.Tab.0.center" timestamp="1590262669744">
+      <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589770138763" />
+    <state width="455" height="689" key="GridCell.Tab.0.center/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590262669744" />
     <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1590254142358" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1590254142358">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="455" height="689" key="GridCell.Tab.0.left" timestamp="1590262669744">
+      <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589770138763" />
+    <state width="455" height="689" key="GridCell.Tab.0.left/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590262669744" />
     <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1590254142358" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1590254142358">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="455" height="689" key="GridCell.Tab.0.right" timestamp="1590262669744">
+      <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1589770138763" />
+    <state width="455" height="689" key="GridCell.Tab.0.right/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590262669744" />
     <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1590254142358" />
     <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1589770138760">
       <screen x="-199" y="-1080" width="1920" height="1080" />
@@ -367,17 +402,17 @@
     </state>
     <state x="60" y="-1043" key="SettingsEditor/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590167021463" />
     <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589387434909" />
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1590246709531">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="188" y="-917" key="Vcs.Push.Dialog.v2" timestamp="1590256896599">
+      <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
     <state x="387" y="157" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589764337318" />
-    <state x="188" y="-917" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590166890470" />
+    <state x="188" y="-917" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590256896599" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1589761288109" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1590246709531" />
-    <state x="379" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1590222725669">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="334" y="-789" key="com.intellij.ide.util.TipDialog" timestamp="1590266059710">
+      <screen x="-199" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="334" y="-789" key="com.intellij.ide.util.TipDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590157021297" />
+    <state x="334" y="-789" key="com.intellij.ide.util.TipDialog/0.0.1366.768/-199.-1080.1920.1080@-199.-1080.1920.1080" timestamp="1590266059710" />
     <state x="379" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768/-199.-1080.1920.1080@0.0.1366.768" timestamp="1590102875458" />
     <state x="379" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1590222725669" />
     <state x="492" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590254846848">
@@ -395,6 +430,8 @@
     <state x="-1643" y="364" width="1441" height="472" key="dock-window-2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589764329800" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ES$Unittests_for_test_reservaV3_testsV3.coverage" NAME="Unittests for test_reservaV3.testsV3 Coverage Results" MODIFIED="1590258605484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/ES$Unittests_for_test_reservaV1_testMockV1.coverage" NAME="Unittests for test_reservaV1.testMockV1 Coverage Results" MODIFIED="1590253961494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/Reserva" />
+    <SUITE FILE_PATH="coverage/ES$Unittests_for_test_reservaV1_testsV1.coverage" NAME="Unittests for test_reservaV1.testsV1 Coverage Results" MODIFIED="1590257685786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>
