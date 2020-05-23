@@ -1,4 +1,4 @@
-from . import Desti
+from scripts.Desti import Desti
 class Flights:
 
 
@@ -36,10 +36,10 @@ class Flights:
         return len(self.__flights)
 
     def consultaPreu(self):
-        preu = 0
-        for el in self.__flights:
-            preu += el.getPreu()
-        return preu
+        return self.destination.getPreu()
 
     def getNPassatgers(self):
         return self.__nPassatgers
+    def __eq__(self, codVol):
+        if self.codiVol==codVol:
+            return True

@@ -1,29 +1,47 @@
-from . import User
-from . import Skyscanner
-from . import Flights
-from . import Cars
-from . import PaymentData
+from scripts.Desti import  Desti
+from scripts.User import User
+from scripts.Skyscanner import Skyscanner
+from scripts.Flights import Flights
+from scripts.Cars import Cars
+from scripts.PaymentData import PaymentData
+from scripts.Allotjaments import Allotjaments
 
-class Reserva:
+class reserva:
 
-    def __init__(self, preu = None, usuaris = None, llistaVols = None, llistaVehicles = None, pagament = None, allotjament =None):
+    def __init__(self, preu=0, usuaris=[], nUsuaris=0, llistaVols=[], llistaVehicles=[], pagament=None, allotjament=[], Destins=[]):
         self.__preu = preu
         self.__usuaris = usuaris
+        self.__nUsuaris = nUsuaris
         self.__llistaVols = llistaVols
         self.__llistaVehicles = llistaVehicles
         self.__pagament = pagament
         self.__llistaAllotjaments = allotjament
-        self.__Vols = None
+        self.__Destins = Destins
+        self.__maxFlights = 4
 
-    def afegirUsuari(self,  nom, DNI, mail):
-        self.__usuaris.append(User(nom, DNI, mail, self.__nusuari))
-        self.__nusuari += 1
-        return self.__nusuari
+
+    def get_preu(self):
+        return self.__preu
+
+    def get_nUsuaris(self):
+        return self.__nUsuaris
+
+    def get_llistatVols(self):
+        return self.__llistaVols
+
+    def get_Destins(self):
+        return self.__Destins
+
+    def afegirUsuari(self,  nom, DNI, mail,ID,carnetcotxe):
+        self.__usuaris.append(User(nom, DNI, mail, ID, carnetcotxe))
+        self.__nUsuaris += 1
+        self.getPreuTotal()
 
     def esborrarUsuari(self, ID):
         for el in self.__usuaris:
             if el.getID() == ID:
                 self.__usuaris.remove(el)
+                self.__nUsuaris -= 1
                 return True
         return False
 
@@ -41,7 +59,8 @@ class Reserva:
 
     def getPreuTotal(self):
         total = 0
-        total += self.__Vols.consultaPreu() * len(self.__usuaris)
+        for el in self.__llistaVols:
+            total += el.consultaPreu() * len(self.__usuaris)
         for el in self.__llistaVehicles:
             total += el.getPreu()
         for el in self.__llistaAllotjaments:
@@ -70,15 +89,24 @@ class Reserva:
     def eliminarAllotjament(self, ID):
         for el in self.__llistaAllotjaments:
             if el.getCodi() == ID:
-                self.__llistaAllotjaments(el)
+                self.__llistaAllotjaments.remove(el)
                 return True
         return False
 
+    def afegirDesti(self, nom, COD, preu):
+        if len(self.__llistaVols)<self.__maxFlights:
+            D=Desti( nom, COD, preu)
+            self.__Destins.append(D)
+            self.__llistaVols.append(Flights("",D,COD,"","","","",""))
+            self.getPreuTotal()
+
+    def eliminarDesti(self,COD):
+        for i,el in enumerate(self.__Destins):
+            a=el.getCOD
+            if el.getCOD()==COD:
+                self.__Destins.remove(el)
+                self.__llistaVols.pop(i)
+                self.getPreuTotal()
+    def realitzarPagament(self):
 
 
-    '''
-    def Confirmar_reserva(Skyscaner,Rentalcars,Hotels):
-        Skyscaner.confirm_reserve(user: User, flights: Flights)
-        Rentalcars.confirm_reserve( user: User, cars: Cars)
-        Hotels.confirm_reserve()
-        '''

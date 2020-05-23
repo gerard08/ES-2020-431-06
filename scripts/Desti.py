@@ -14,3 +14,7 @@ class Desti:
 
     def getPreu(self):
         return self.__preu
+
+    def __eq__(self, COD):
+        if self.__COD==COD:
+            return True
