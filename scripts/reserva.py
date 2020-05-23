@@ -11,7 +11,7 @@ from scripts.Booking import Booking
 from scripts.Skyscanner import Skyscanner
 class reserva:
 
-    def __init__(self, preu=0, usuaris=[], nUsuaris=0, llistaVols=[], llistaVehicles=[], pagament=None, allotjament=[], Destins=[]):
+    def __init__(self, preu=0, usuaris=[], nUsuaris=0, llistaVols=[], llistaVehicles=[], pagament=PaymentData("","","","",""), allotjament=[], Destins=[]):
         self.__preu = preu
         self.__usuaris = usuaris
         self.__nUsuaris = nUsuaris
@@ -77,13 +77,30 @@ class reserva:
 
     def seleccionar_metode_pagament(self,metode_pagament):
         if metode_pagament == 'Visa':
-            self.__pagament = PaymentData("","",metode_pagament,"","")
+            self.__pagament.set_tipus_targeta(metode_pagament)
         else:
             if metode_pagament == 'Mastercard':
-                self.__pagament = PaymentData("","",metode_pagament,"","")
+                self.__pagament.set_tipus_targeta(metode_pagament)
             else :
                 print('Error, metode de pagament no disponible')
+    def rellenar_dades_Facturació(self,nomtitular,  numtargeta, tipustargeta, codiseguretat):
 
+        if not isinstance(nomtitular,str):
+            return "Dades invalides"
+        if not isinstance(numtargeta, int):
+            return "Dades invalides"
+        if not isinstance(tipustargeta, str):
+            return "Dades invalides"
+        if not isinstance(codiseguretat, int):
+            return "Dades invalides"
+        if  len(str(numtargeta)) != 16:
+            return "Dades invalides"
+        if  len(str(codiseguretat))!=3:
+            return "Dades invalides"
+        if tipustargeta != 'Visa' and tipustargeta !="Mastercard":
+            return "Dades invalides"
+        self.__pagament=PaymentData(nomtitular,  numtargeta, tipustargeta, codiseguretat, self.__preu)
+        return "Dades correctes"
 
     def obtenir_usuari(self):
         return self.__usuaris #mal feta

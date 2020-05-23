@@ -3,11 +3,13 @@ from scripts.reserva import reserva
 from scripts.Desti import  Desti
 from scripts.Flights import Flights
 from unittest import mock
+from scripts.User import User
+from scripts.PaymentData import PaymentData
+class testsV1(unittest.TestCase):
 
-class testMockV1(unittest.TestCase):
-    @mock.patch('scripts.reserva')
 
-    def test_ReservaV1(self,mock_reserva):
+
+    def test_ReservaV1(self):
 
         R = reserva()
         R.afegirUsuari("","","","","")
@@ -32,3 +34,11 @@ class testMockV1(unittest.TestCase):
         assert p == R.get_preu()
         assert R.get_llistatVols() == b
         assert R.get_Destins() == a
+
+        a,b= R.RealitzarPagament("p","l")
+        assert a=="Pagament realitzat correctament"
+        a, b = R.ConfirmarReservaVols("p", "l")
+        assert a == "Reserva realitzada correctament"
+
+
+
