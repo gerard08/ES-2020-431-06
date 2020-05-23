@@ -5,7 +5,10 @@ from scripts.Flights import Flights
 from scripts.Cars import Cars
 from scripts.PaymentData import PaymentData
 from scripts.Allotjaments import Allotjaments
-
+from scripts.Bank import Bank
+from scripts.Rentalcars import Rentalcars
+from scripts.Booking import Booking
+from scripts.Skyscanner import Skyscanner
 class reserva:
 
     def __init__(self, preu=0, usuaris=[], nUsuaris=0, llistaVols=[], llistaVehicles=[], pagament=None, allotjament=[], Destins=[]):
@@ -18,7 +21,9 @@ class reserva:
         self.__llistaAllotjaments = allotjament
         self.__Destins = Destins
         self.__maxFlights = 4
-
+        self.__maxReintents = 5
+    def get_data_pagament(self):
+        return self.__pagament
 
     def get_preu(self):
         return self.__preu
@@ -46,14 +51,16 @@ class reserva:
         return False
 
     def afegirVehicle(self, marca, matricula, llocRecollida, duradareserva, preuHora):
-        ID = len(self.__llistaVehicles)
-        self.__llistaVehicles.append(Cars(ID,marca, matricula, llocRecollida, duradareserva, preuHora))
-        return ID
 
-    def eliminarVehicle(self, ID):
+        self.__llistaVehicles.append(Cars(marca, matricula, llocRecollida, duradareserva, preuHora))
+        self.getPreuTotal()
+
+
+    def eliminarVehicle(self, matricula):
         for el in self.__llistaVehicles:
-            if el.getCodi() == ID:
+            if el.getMatricula() == matricula:
                 self.__llistaVehicles.remove(el)
+                self.getPreuTotal()
                 return True
         return False
 
@@ -69,11 +76,11 @@ class reserva:
         return total
 
     def seleccionar_metode_pagament(self,metode_pagament):
-        if metode_pagament != 'Visa':
-            self.metode_pagament = metode_pagament
+        if metode_pagament == 'Visa':
+            self.__pagament = PaymentData("","",metode_pagament,"","")
         else:
             if metode_pagament == 'Mastercard':
-                self.metode_pagament = metode_pagament
+                self.__pagament = PaymentData("","",metode_pagament,"","")
             else :
                 print('Error, metode de pagament no disponible')
 
@@ -84,12 +91,14 @@ class reserva:
     def afegirAllotjament(self, direccio, preu, tipusAllotjament, nomAllotjament, codi, durada):
         ID = len(self.__llistaAllotjaments)
         self.__llistaAllotjaments.append(Allotjaments(direccio, preu, tipusAllotjament, nomAllotjament, codi, durada))
+        self.getPreuTotal()
         return ID
 
     def eliminarAllotjament(self, ID):
         for el in self.__llistaAllotjaments:
             if el.getCodi() == ID:
                 self.__llistaAllotjaments.remove(el)
+                self.getPreuTotal()
                 return True
         return False
 
@@ -107,6 +116,48 @@ class reserva:
                 self.__Destins.remove(el)
                 self.__llistaVols.pop(i)
                 self.getPreuTotal()
-    def realitzarPagament(self):
 
+    def RealitzarPagament(self,User, payment_data):
+        a = Bank.do_payment("",User,payment_data)
+        i=1
+        while a!=True and i<self.__maxReintents:
+             a = Bank.do_payment("", User, payment_data)
+             i = i + 1
 
+        if a == True:
+            return ("Pagament realitzat correctament"),i
+        else:
+            return ("Error en el pagament"),i
+
+    def ConfirmarReservaVols(self,User,Fligths):
+        a = Skyscanner.confirm_reserve("",User,Fligths)
+        i = 1
+        while a != True and i < self.__maxReintents:
+            a = Skyscanner.confirm_reserve("", User, Fligths)
+            i=i+1
+        if a == True:
+            return ("Reserva realitzada correctament"),i
+        else:
+            return ("Error en la reserva"),i
+
+    def ConfirmarReservaCoches(self, User, Cars):
+        a = Rentalcars.confirm_reserve("", User,  Cars)
+        i = 1
+        while a != True and i< self.__maxReintents:
+            a = Rentalcars.confirm_reserve("", User,  Cars)
+            i = i + 1
+        if a == True:
+            return ("Reserva realitzada correctament"),i
+        else:
+            return ("Error en la reserva"),i
+
+    def ConfirmarReservaAllotjaments(self, User, Allojament):
+        a = Booking.confirm_reserve("", User, Allojament)
+        i = 1
+        while a != True and i < self.__maxReintents:
+            a = Booking.confirm_reserve("", User, Allojament)
+            i = i + 1
+        if a == True:
+            return ("Reserva realitzada correctament"),i
+        else:
+            return ("Error en la reserva"),i

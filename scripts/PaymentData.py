@@ -14,7 +14,8 @@ class PaymentData:
     def calcular_preu(self, Res: reserva):
         self.__import_total = Res.preu
         pass
-
+    def mostrar_tipus_targeta(self):
+        return self.tipus_targeta
     def mostra_num_targeta(self):
         return self.__num_targeta
 

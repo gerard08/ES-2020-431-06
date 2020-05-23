@@ -1,5 +1,5 @@
 from . import User
-from . import Hotels
+from . import Allotjaments
 
 
 class Booking():
@@ -7,5 +7,5 @@ class Booking():
     def __init__(self):
         pass
 
-    def confirm_reserve(self, user: User, hotels: Hotels) -> bool:
+    def confirm_reserve(self, user: User, hotels: Allotjaments) -> bool:
         return True

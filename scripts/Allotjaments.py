@@ -8,20 +8,20 @@ class Allotjaments:
         self.__codi = codi
         self.__durada = durada
 
-        def getDireccio(self):
-            return self.__direccio
+    def getDireccio(self):
+         return self.__direccio
 
-        def getPreu(self):
-            return self.__preu * self.__durada
+    def getPreu(self):
+        return self.__preu * self.__durada
 
-        def getTipusAllotjament(self):
-            return self.__tipusAllotjament
+    def getTipusAllotjament(self):
+        return self.__tipusAllotjament
 
-        def getNomAllotjament(self):
-            return self.nomAllotjament
+    def getNomAllotjament(self):
+        return self.nomAllotjament
 
-        def getCodi(self):
-            return self.codi
+    def getCodi(self):
+        return self.__codi
 
-        def getDurada(self):
-            return self.durada
+    def getDurada(self):
+        return self.durada
