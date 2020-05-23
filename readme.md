@@ -9,7 +9,7 @@
 1531236 Gerard Martínez Espelleta
 1526000 Gerard Tejón Estalella
 
-Enllaç presentació:
+**Enllaç presentació:**
 https://docs.google.com/presentation/d/1TlJaaQjG7LHi8i-XKTviP-IR3jwVzK1izb5zeLTAkPk/edit#slide=id.p
 
 
